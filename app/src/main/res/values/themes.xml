@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FebaThampanTask2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="android:colorBackground">@color/white</item>    </style>
+
+    <style name="Theme.FebaThampanTask2" parent="Base.Theme.FebaThampanTask2" />
+
+    <!-- App bar title -->
+    <style name="TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Large text field -->
+    <style name="TextInputLarge">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!--Style for text fields-->
+<style name="EditText">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">48dp</item>
+    <item name="android:padding">8dp</item>
+    <item name="android:textColor">@color/fuchsia</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+    <item name="android:layout_marginTop">16dp</item>
+    <item name="android:layout_marginLeft">24dp</item>
+    <item name="android:layout_marginRight">24dp</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColorHint">@color/hot_pink</item>
+</style>
+
+    <!-- Style for display text -->
+    <style name="TextView_1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/fuchsia</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="AppButton" parent="EditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
